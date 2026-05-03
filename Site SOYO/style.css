@@ -338,14 +338,43 @@ footer a p:hover {
     }
 
     .hero-title {
-    font-size: 2rem;
-  }
+      font-size: 2rem;
+    }
 
+    #apropos,
+    #contact {
+      min-height: 100vh;
+      height: auto;
+    }
 
-  #contact{
-    min-height: 100vh;
-    height: fit-content;
-  }
+    #apropos {
+      padding: 80px 20px 50px !important;
+    }
+
+    #apropos .aboutContainer {
+      width: 100% !important;
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+    }
+
+    #apropos img {
+      max-width: 180px;
+      display: block;
+      margin: 0 auto 25px;
+    }
+
+    #apropos p {
+      font-size: 16px;
+      line-height: 1.65;
+      text-align: left;
+      max-width: 100%;
+      margin: 0 auto;
+    }
+
+    #apropos .section-title {
+      font-size: 42px;
+      margin-bottom: 30px;
+    }
 
     #contact a:hover {
         color: rgb(255, 255, 255);
@@ -353,30 +382,28 @@ footer a p:hover {
     }
 
     h1 {
-            font-size: 50px;
-        }
+        font-size: 50px;
+    }
 
-        p {
-            font-size: 15px;
+    p {
+        font-size: 15px;
+    }
 
-        }
+    #contact a {
+        font-size: 30px;
+    }
 
-        #contact a {
-            font-size: 30px;
-        }
+    .myImgContainer {
+      border-right: none; /* on enlève complètement */
+    }
 
-     .myImgContainer {
-  border-right: none; /* on enlève complètement */
-}
-
-.mobile-separator {
-    display: block;
-    border: none;
-    border-bottom: 4px solid rgb(255, 255, 255);
-    width: 80%;         /* largeur réduite */
-    margin: 20px auto;  /* centré avec marge */
-  }
-    
+    .mobile-separator {
+        display: block;
+        border: none;
+        border-bottom: 4px solid rgb(255, 255, 255);
+        width: 80%;         /* largeur réduite */
+        margin: 20px auto;  /* centré avec marge */
+    }
 }
 
 
@@ -441,12 +468,46 @@ footer a p:hover {
   .hero-title {
     font-size: 1.5rem;
   }
+
+  #apropos {
+    padding: 70px 18px 45px !important;
+  }
+
+  #apropos img {
+    max-width: 140px;
+    margin-bottom: 22px;
+  }
+
+  #apropos p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  #apropos .section-title {
+    font-size: 34px;
+    margin-bottom: 24px;
+  }
 }
 
 @media screen and (max-width: 390px) {
 
-#apropos{
-        min-height: fit-content;
+#apropos {
+    min-height: auto;
+    height: auto;
+    padding: 65px 16px 40px !important;
+}
+
+#apropos img {
+    max-width: 120px;
+}
+
+#apropos p {
+    font-size: 13px;
+    line-height: 1.55;
+}
+
+#apropos .section-title {
+    font-size: 30px;
 }
 
 #email{
@@ -457,8 +518,4 @@ footer a p:hover {
     font-size: 50%;
 }
 
- 
- 
-
-    
 }
